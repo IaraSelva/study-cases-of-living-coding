@@ -16,16 +16,24 @@ Return an array, where the first element is the count of positives numbers and t
 
 If the input is an empty array or is null, return an empty array.<hr>
 
-So, let's see. First of all we need to declare some array to store the results      
-The rules are:
+<ul>
+  So, let's see. 
+  <li>First of all we need to declare some array to store the results.</li>    
+  
 <dl>
+  <dt>The rules are:</dt>
   <dd>The first element must be the count of positive numbers given into input</dd> 
   <dd>The second element must be the sum of negative numbers given into input</dd>
 </dl>
+  
+<p>You can see how declare and manipulate arrays in Java on this article: https://www.geeksforgeeks.org/arrays-in-java/<p>
 
-You can see how declare and manipulate arrays in Java on this article: https://www.geeksforgeeks.org/arrays-in-java/ <hr>
-
-<ul>
+  <ul>
+  Now, before we actually started on, let's check if the input is even null or zero.
+    <li> If that's the case, we must return our previously declared array as an empty array.</li>
+    <li>If it's not, let's jump to the next steps.</li>
+  </ul>
+  <br>
   So, next steps :
     <li>Initialize a count variable for increment the quantity of positive numbers</li>
     <li>Initialize a variable for sum the quantity of negative numbers</li>

@@ -32,6 +32,7 @@ If the input is an empty array or is null, return an empty array.<hr>
   Now, before we actually started on, let's check if the input is even null or zero.
     <li> If that's the case, we must return our previously declared array as an empty array.</li>
     <li>If it's not, let's jump to the next steps.</li>
+    <p>Here https://www.w3schools.com/java/java_conditions.asp you can read about conditions in Java and examples using if statments</p>
   </ul>
   <br>
   So, next steps :
@@ -39,11 +40,10 @@ If the input is an empty array or is null, return an empty array.<hr>
     <li>Initialize a variable for sum the quantity of negative numbers</li>
     <li>Make a loop to go through the input array</li>
       <p>At the same article above (about arrays) you can see how to manipulate them using <i>for</i> loop.</p>
-    <li>Then, into the loop we can go through all the given elements and verify if its a positive or negative number.</li>
+    <li>Then, into the loop we can go through all the given elements and verify if its a positive or negative number using conditions as we already did before.</li>
       <ul>
         <li>If it would be a positive number, we increment our previously declared count variable.</li>
-        <li>If it would be a negative number, we sum into our previously declared sum variable.</li>
-        <p>Here https://www.w3schools.com/java/java_conditions.asp you can read about conditions in Java and examples using if statments</p>
+        <li>If it would be a negative number, we sum into our previously declared sum variable.</li>   
       </ul>
     <li>Finally, add count into the 0 position and sum into the 1 position in your previously initialized array at the begin</li>
     <li>At the end, return the array with count of positives and sum of negatives</li>

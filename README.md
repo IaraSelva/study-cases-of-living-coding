@@ -2,7 +2,7 @@
 * [Binary Search](https://github.com/IaraSelva/study-cases-of-living-coding/blob/main/algorithms/binary_search.js)
 
 # Data Structures
-* [Linked Lists](https://github.com/IaraSelva/study-cases-of-living-coding/blob/main/lists/linked_list.js)
+* [Linked List](https://github.com/IaraSelva/study-cases-of-living-coding/blob/main/data_structures/lists/linked_list.js)
 * [Stack](https://github.com/IaraSelva/study-cases-of-living-coding/blob/main/data_structures/lists/stack.js)
 
 # Problems

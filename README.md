@@ -9,7 +9,6 @@
 # Problems
 * [Minimum Domino Rotations For Equal Row](https://github.com/IaraSelva/study-cases-of-living-coding/blob/main/solved_problems/min_domino_rotations.js): [LeetCode](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)<br>
 <sub>
-lorem ipsilum
 </sub><br>
 * [Valid Parentheses](https://github.com/IaraSelva/study-cases-of-living-coding/blob/main/solved_problems/valid_parentheses.js): [LeetCode](https://leetcode.com/problems/valid-parentheses/)<br>
 <sub>

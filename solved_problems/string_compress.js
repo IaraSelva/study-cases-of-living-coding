@@ -40,6 +40,7 @@ var compress = function(chars) {
             count += 1
         }
         else{
+            chars[write] = lastRead
             write += 1
             if (count > 1){
                 chars[write] = count;
@@ -50,6 +51,7 @@ var compress = function(chars) {
         lastRead = chars[read]
         read += 1
     }
+    chars[write] = lastRead
     if (count > 1){
         write += 1
         chars[write] = count;
@@ -57,7 +59,7 @@ var compress = function(chars) {
     return chars.slice(0, write + 1);
  };
 
- let chars = ["a","a","b","b","c","c","c"]
+ let chars = ["a","a","a","a","a","b","b","b","c","c","c"]
  console.log(compress(chars))
  chars = ["a","b","b","b","b","b","b","b","b","b","b","b","b"]
  console.log(compress(chars))

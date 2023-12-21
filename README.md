@@ -5,6 +5,8 @@
 * [Linked List](https://github.com/IaraSelva/study-cases-of-living-coding/blob/main/data_structures/lists/linked_list.js)
 * [Stack](https://github.com/IaraSelva/study-cases-of-living-coding/blob/main/data_structures/lists/stack.js)
 * [Queue](https://github.com/IaraSelva/study-cases-of-living-coding/blob/main/data_structures/lists/queue.js)
+* [Binary Search Tree](https://github.com/IaraSelva/study-cases-of-living-coding/blob/main/data_structures/trees/binary_search_tree.js)
+* [Graphs](https://github.com/IaraSelva/study-cases-of-living-coding/blob/main/data_structures/graphs) - [Full Course](https://www.youtube.com/watch?v=tWVWeAqZ0WU)
 
 # Problems
 * [Minimum Domino Rotations For Equal Row](https://github.com/IaraSelva/study-cases-of-living-coding/blob/main/solved_problems/min_domino_rotations.js): [LeetCode](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)

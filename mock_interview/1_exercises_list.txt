@@ -1,0 +1,77 @@
+Top 5 Practice Exercises (Python)
+1. Currency Converter with Caching
+Level: Medium
+Skills: Dict, API simulation, caching logic, clean structure
+
+Prompt:
+Design a CurrencyConverter class that supports:
+
+convert(amount, from_currency, to_currency)
+
+Uses a given dict of exchange rates
+
+Caches conversions (e.g., USD -> EUR = 0.9) for performance
+
+Adds a TTL (time to live) for cached entries (you can simulate time with a timestamp field)
+
+Bonus: How would you make it thread-safe if this were real-time?
+
+2. Rate Limiter
+Level: Medium-Hard
+Skills: Time, Queues, Python classes
+
+Prompt:
+Implement a class RateLimiter with a method allow_request(user_id: str) -> bool, which returns True if the user is allowed to make the request, False otherwise.
+
+Each user can make at most 3 requests per 10 seconds
+
+Use time.time() for timestamps
+
+Discuss how this would work in a distributed system.
+
+3. Transaction Aggregator
+Level: Medium
+Skills: OOP, aggregation, dicts, clean design
+
+Prompt:
+Write a TransactionAggregator class that supports:
+
+add_transaction(user_id, amount)
+
+get_total(user_id) returns sum of transactions
+
+get_average(user_id) returns average
+
+Discuss edge cases like missing users, zero transactions, or negative amounts.
+
+4. Conversion Path (Graph)
+Level: Medium-Hard
+Skills: Graph traversal (BFS), dicts, recursion, readability
+
+Prompt:
+Given a graph of currency conversions like:
+
+rates = {
+    "USD": {"EUR": 0.9, "GBP": 0.75},
+    "EUR": {"JPY": 130},
+    "GBP": {"INR": 100}
+}
+Write a function find_conversion_path(from_currency, to_currency) that returns a list of currencies representing the path (e.g., ["USD", "EUR", "JPY"])
+
+Bonus: Return the total conversion rate from start to end.
+
+5. Fault-Tolerant External Service
+Level: Medium
+Skills: Exception handling, retries, class design
+
+Prompt:
+Implement a class ExternalServiceCaller that:
+
+Calls a method get_data()
+
+Retries up to 3 times if it fails with ConnectionError
+
+After 3 failed attempts, raises a custom ServiceUnavailable exception
+
+Tip: Practice adding logging or fallback behavior.
+
